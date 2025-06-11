@@ -5,7 +5,7 @@
 
 <sup>1</sup>Wherobots&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Microsoft
 
-<a href="https://arxiv.org/abs/2401.06762"><img src='https://img.shields.io/badge/arXiv-Landsat%20Bench-red' alt='Paper PDF'></a>
+<a href="https://arxiv.org/abs/2506.08780"><img src='https://img.shields.io/badge/arXiv-Landsat%20Bench-red' alt='Paper PDF'></a>
 <a href='https://huggingface.co/datasets/isaaccorley/eurosat-l/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-EuroSAT%20L-yellow'></a><a href='https://huggingface.co/datasets/isaaccorley/bigearthnet-l/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-BigEarthNet%20L-yellow'></a><a href='https://huggingface.co/datasets/isaaccorley/lc100-l/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-LC100%20L-yellow'></a>
 </div>
 
@@ -87,3 +87,15 @@ To recreate the datasets please install the dev dependencies `pip install .[dev]
 ## Citation
 
 If you use this dataset in your work please cite our paper:
+
+```bibtex
+@misc{corley2025landsatbenchdatasetsbenchmarkslandsat,
+      title={Landsat-Bench: Datasets and Benchmarks for Landsat Foundation Models}, 
+      author={Isaac Corley and Lakshay Sharma and Ruth Crasto},
+      year={2025},
+      eprint={2506.08780},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.08780}, 
+}
+```
