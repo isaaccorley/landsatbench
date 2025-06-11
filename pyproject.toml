@@ -1,0 +1,86 @@
+[build-system]
+requires = [
+    "setuptools>=77.0.1",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "landsatbench"
+description = "Landsat-Bench: Datasets and Benchmarks for Landsat Foundation Models"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    {name = "Isaac Corley", email = "isaac.corley@utsa.edu"},
+]
+keywords = ["pytorch", "deep learning", "landsat", "remote sensing", "satellite imagery", "earth observation", "geospatial"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+dynamic = ["version"]
+dependencies = [
+    "torchgeo[datasets]",
+    "scikit-learn",
+    "tabulate",
+    "tqdm",
+]
+[project.optional-dependencies]
+dev = [
+    "pyarrow",
+    "ruff",
+    "planetary-computer",
+    "pystac-client",
+    "rioxarray",
+    "odc-stac",
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+src = ["landsat_bench", "notebooks", "scripts", "data", "eval"]
+force-exclude = true
+fix = true
+show-fixes = true
+
+[tool.ruff.format]
+skip-magic-trailing-comma = true
+
+[tool.ruff.lint]
+extend-select = ["B", "Q", "I", "UP"]
+ignore = [
+    "E203",
+    "E402",
+    "F821",
+    "F405",
+    "F403",
+    "E731",
+    "B006",
+    "B008",
+    "B904",
+    "E741",
+]
+
+[tool.ruff.lint.pylint]
+max-returns = 5
+max-args = 25
+
+[tool.ruff.lint.isort]
+split-on-trailing-comma = false
+
+
+[tool.setuptools.dynamic]
+version = {attr = "landsatbench.__version__"}
+
+[tool.setuptools.package-data]
+torchgeo = ["py.typed"]
+
+[tool.setuptools.packages.find]
+include = ["landsatbench*"]
