@@ -17,7 +17,7 @@
 We introduce Landsat-Bench: a new benchmark for Geospatial Foundation Models (GFM) pretrained on Landsat imagery. Our benchmark contains three Landsat variants (denoted with the suffix “—L”.) of existing remote sensing datasets: EuroSAT-L, BigEarthNet-L & LC100-L.
 
 <p align="center">
-    <img src="image.png" alt="EuroSAT Example" width="600"/><br/>
+    <img src="assets/datasets.png" alt="Landsat-Bench Datasets" width="600"/><br/>
     <b>Figure 1.</b> Comparisons of the datasets in Landsat-Bench and their original forms. ML and MT indicate multi-label
 and multi-temporal datasets, respectively.
 </p>
