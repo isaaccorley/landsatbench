@@ -1,6 +1,10 @@
 data/bigearthnet-l/
+data/bigearthnet-l
 data/eurosat-l/
+data/eurosat-l
 data/lc100-l/
+data/lc100-l
+data/*.txt
 embeddings/
 *-logs.csv
 *.csv
