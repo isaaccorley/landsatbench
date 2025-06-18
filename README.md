@@ -87,18 +87,18 @@ was pretrained on the [SSL4EO-L](https://arxiv.org/abs/2306.09424) dataset using
 |    ImageNet ResNet-18    |     76.2      |     81.0     |       57.5        |       70.2       |    56.5     |    62.1    |
 |    ImageNet ResNet-50    |     76.4      |     79.0     |       58.3        |       71.9       |    56.6     |    60.6    |
 |    ImageNet ViT-S/16     |     79.4      |     86.4     |       61.9        |       74.9       |    56.5     |    60.5    |
-|SSL4EO-L ResNet-18 SimCLR |     69.8      |     68.5     |       51.4        |       60.3       |    57.7     |    63.8    |
-|SSL4EO-L ResNet-18 MoCo v2|     79.0      |     82.8     |       61.4        |       74.0       |    56.9     |    61.6    |
-|SSL4EO-L ResNet-50 SimCLR |     72.6      |     73.5     |       53.9        |       63.1       |    56.8     |    62.1    |
-|SSL4EO-L ResNet-50 MoCo v2|     75.1      |     82.5     |       59.3        |       76.1       |    56.2     |    60.5    |
-| SSL4EO-L ViT-S/16 SimCLR |     83.4      |     77.6     |       67.0        |       68.3       |    55.8     |    63.4    |
-|SSL4EO-L ViT-S/16 MoCo v2 |     81.6      |     88.8     |       64.5        |       77.5       |    56.0     |    59.9    |
-|        DOFA-B/16         |     80.0      |     87.3     |                   |                  |             |            |
-|     Satlas Swin V2-B     |     84.1      |     89.6     |                   |                  |             |            |
-|        DOFA-L/16         |     84.5      |     89.8     |                   |                  |             |            |
-|     Prithvi-EO-100M      |     86.4      |     89.4     |                   |                  |             |            |
-|   Prithvi-EO-2.0 300M    |     87.3      |     91.1     |                   |                  |             |            |
-|   Prithvi-EO-2.0 600M    |     88.7      |     91.9     |                   |                  |             |            |
+|[SSL4EO-L ResNet-18 SimCLR](https://arxiv.org/abs/2306.09424) |     69.8      |     68.5     |       51.4        |       60.3       |    57.7     |    63.8    |
+|[SSL4EO-L ResNet-18 MoCo v2](https://arxiv.org/abs/2306.09424) |     79.0      |     82.8     |       61.4        |       74.0       |    56.9     |    61.6    |
+|[SSL4EO-L ResNet-50 SimCLR](https://arxiv.org/abs/2306.09424) |     72.6      |     73.5     |       53.9        |       63.1       |    56.8     |    62.1    |
+|[SSL4EO-L ResNet-50 MoCo v2](https://arxiv.org/abs/2306.09424) |     75.1      |     82.5     |       59.3        |       76.1       |    56.2     |    60.5    |
+| [SSL4EO-L ViT-S/16 SimCLR](https://arxiv.org/abs/2306.09424) |     83.4      |     77.6     |       67.0        |       68.3       |    55.8     |    63.4    |
+|[SSL4EO-L ViT-S/16 MoCo v2](https://arxiv.org/abs/2306.09424) |     81.6      |     88.8     |       64.5        |       77.5       |    56.0     |    59.9    |
+|        [DOFA-B/16](https://arxiv.org/abs/2403.15356)         |     80.0      |     87.3     |                   |                  |             |            |
+|     [Satlas Swin V2-B](https://arxiv.org/abs/2211.15660)     |     84.1      |     89.6     |                   |                  |             |            |
+|        [DOFA-L/16](https://arxiv.org/abs/2403.15356)         |     84.5      |     89.8     |                   |                  |             |            |
+|     [Prithvi-EO-100M](https://arxiv.org/abs/2310.18660)      |     86.4      |     89.4     |                   |                  |             |            |
+|   [Prithvi-EO-2.0 300M](https://arxiv.org/abs/2412.02732)    |     87.3      |     91.1     |                   |                  |             |            |
+|   [Prithvi-EO-2.0 600M](https://arxiv.org/abs/2412.02732)    |     **88.7**  |     **91.9** |                   |                  |             |            |
 
 
 
