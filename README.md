@@ -6,7 +6,7 @@
 <sup>1</sup>Wherobots&emsp;&emsp;&emsp;&emsp;<sup>2</sup>Microsoft
 
 <a href="https://arxiv.org/abs/2506.08780"><img src='https://img.shields.io/badge/arXiv-Landsat%20Bench-red' alt='Paper PDF'></a>
-<a href='https://huggingface.co/datasets/isaaccorley/eurosat-l/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-EuroSAT%20L-yellow'></a><a href='https://huggingface.co/datasets/isaaccorley/bigearthnet-l/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-BigEarthNet%20L-yellow'></a><a href='https://huggingface.co/datasets/isaaccorley/lc100-l/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-LC100%20L-yellow'></a>
+<a href='https://huggingface.co/datasets/isaaccorley/eurosat-l/tree/40282cda59fa453cf4a7a3ccaf4dfc6b353eb58b'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-EuroSAT%20L-yellow'></a><a href='https://huggingface.co/datasets/isaaccorley/bigearthnet-l/tree/792f53a06836ae42767b93ea14c1365d1a45bb26'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-BigEarthNet%20L-yellow'></a><a href='https://huggingface.co/datasets/isaaccorley/lc100-l/tree/ab9bf7972885ab9b734055440b041d9928bc10ca'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-LC100%20L-yellow'></a>
 </div>
 
 <p align="center">
@@ -27,7 +27,7 @@ and multi-temporal datasets, respectively.
 
 - [2025.06]: We've benchmarked additional models (Prithvi v1, Prithvi v2, DOFA, and Satlas)! Prithvi-EO-2.0 600M is the new SOTA on EuroSAT-L! More benchmarks to come soon!
 - [2025.06]: Landsat-Bench has been accepted for presentation at the [ICML TerraBytes Workshop](https://terrabytes-workshop.github.io/)!
-- [2025.05]: Datasets have been released on HuggingFace! [EuroSAT-L](https://huggingface.co/datasets/isaaccorley/eurosat-l), [BigEarthNet-L](https://huggingface.co/datasets/isaaccorley/bigearthnet-l), [LC100-L](https://huggingface.co/datasets/isaaccorley/lc100-l)
+- [2025.05]: Datasets have been released on HuggingFace! [EuroSAT-L](https://huggingface.co/datasets/isaaccorley/eurosat-l/tree/40282cda59fa453cf4a7a3ccaf4dfc6b353eb58b), [BigEarthNet-L](https://huggingface.co/datasets/isaaccorley/bigearthnet-l/tree/792f53a06836ae42767b93ea14c1365d1a45bb26), [LC100-L](https://huggingface.co/datasets/isaaccorley/lc100-l/tree/ab9bf7972885ab9b734055440b041d9928bc10ca)
 
 ### Installation
 
